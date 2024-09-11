@@ -1,0 +1,153 @@
+{
+    "title": "merchantupdate",
+    "properties": {
+        "Address": {
+            "bsonType": "string"
+        },
+        "ApprovalStatus": {
+            "bsonType": "string"
+        },
+        "ApprovedOn": {
+            "bsonType": "date"
+        },
+        "AveragePriceTip": {
+            "bsonType": "string"
+        },
+        "Bulletin": {
+            "bsonType": "string"
+        },
+        "BusinessHours": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "DayOfWeek": {
+                        "bsonType": "int"
+                    },
+                    "OpenTime": {
+                        "bsonType": "array",
+                        "items": {
+                            "bsonType": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "CallCenter": {
+            "bsonType": "string"
+        },
+        "Category": {
+            "bsonType": "string"
+        },
+        "ChainID": {
+            "bsonType": "string"
+        },
+        "City": {
+            "bsonType": "string"
+        },
+        "CityCode": {
+            "bsonType": "string"
+        },
+        "CommentNumber": {
+            "bsonType": "int"
+        },
+        "CreatedBy": {
+            "bsonType": "string"
+        },
+        "CreatedOn": {
+            "bsonType": "date"
+        },
+        "CustomTags": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "Distance": {
+            "bsonType": "int"
+        },
+        "EnvScore": {
+            "bsonType": "int"
+        },
+        "FoodScore": {
+            "bsonType": "int"
+        },
+        "HomeImage": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "IsDeleted": {
+            "bsonType": "bool"
+        },
+        "Latitude": {
+            "bsonType": "double"
+        },
+        "Location": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "double"
+            }
+        },
+        "LogoImage": {
+            "bsonType": "string"
+        },
+        "Longitude": {
+            "bsonType": "double"
+        },
+        "MerchantID": {
+            "bsonType": "string"
+        },
+        "MerchantRoles": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "Role": {
+                        "bsonType": "string"
+                    },
+                    "UserID": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "MerchantScore": {
+            "bsonType": "int"
+        },
+        "MonthSales": {
+            "bsonType": "int"
+        },
+        "Name": {
+            "bsonType": "string"
+        },
+        "QualityScore": {
+            "bsonType": "int"
+        },
+        "Status": {
+            "bsonType": "string"
+        },
+        "SubmittedOn": {
+            "bsonType": "date"
+        },
+        "Type": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "string"
+        },
+        "UpdatedOn": {
+            "bsonType": "date"
+        },
+        "UserID": {
+            "bsonType": "string"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "required": [
+        "_id"
+    ]
+}

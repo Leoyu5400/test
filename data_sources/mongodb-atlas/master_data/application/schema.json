@@ -1,0 +1,65 @@
+{
+    "title": "application",
+    "properties": {
+        "ApplicationReason": {
+            "bsonType": "string"
+        },
+        "ApplicationStatus": {
+            "bsonType": "string"
+        },
+        "BusinessLicense": {
+            "bsonType": "string"
+        },
+        "BusinessOwnerContact": {
+            "bsonType": "string"
+        },
+        "BusinessOwnerName": {
+            "bsonType": "string"
+        },
+        "CompanyAddress": {
+            "bsonType": "string"
+        },
+        "CompanyCategory": {
+            "bsonType": "string"
+        },
+        "CompanyName": {
+            "bsonType": "string"
+        },
+        "ContactNumber": {
+            "bsonType": "string"
+        },
+        "CreatedBy": {
+            "bsonType": "string"
+        },
+        "CreatedOn": {
+            "bsonType": "date"
+        },
+        "IsDeleted": {
+            "bsonType": "bool"
+        },
+        "RegistrationDate": {
+            "bsonType": "string"
+        },
+        "RegistrationLocation": {
+            "bsonType": "string"
+        },
+        "RegistrationNo": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "string"
+        },
+        "UpdatedOn": {
+            "bsonType": "date"
+        },
+        "UserID": {
+            "bsonType": "string"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "required": [
+        "_id"
+    ]
+}

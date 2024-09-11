@@ -1,0 +1,74 @@
+{
+    "title": "user",
+    "properties": {
+        "AccessToken": {
+            "bsonType": "string"
+        },
+        "AccessTokenExpiryTime": {
+            "bsonType": "date"
+        },
+        "CreatedBy": {
+            "bsonType": "string"
+        },
+        "CreatedOn": {
+            "bsonType": "date"
+        },
+        "Email": {
+            "bsonType": "string"
+        },
+        "Gender": {
+            "bsonType": "string"
+        },
+        "GoogleUserID": {
+            "bsonType": "string"
+        },
+        "IsDeleted": {
+            "bsonType": "bool"
+        },
+        "IsThirdPartyLogin": {
+            "bsonType": "bool"
+        },
+        "LastLoginTime": {
+            "bsonType": "date"
+        },
+        "LoginProvider": {
+            "bsonType": "string"
+        },
+        "PassWord": {
+            "bsonType": "string"
+        },
+        "Phone": {
+            "bsonType": "string"
+        },
+        "PhotoUrl": {
+            "bsonType": "string"
+        },
+        "RefreshToken": {
+            "bsonType": "string"
+        },
+        "RefreshTokenExpiryTime": {
+            "bsonType": "date"
+        },
+        "Role": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "string"
+        },
+        "UpdatedOn": {
+            "bsonType": "date"
+        },
+        "UserID": {
+            "bsonType": "string"
+        },
+        "UserName": {
+            "bsonType": "string"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "required": [
+        "_id"
+    ]
+}

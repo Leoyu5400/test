@@ -1,0 +1,32 @@
+{
+    "title": "encryptkey",
+    "properties": {
+        "CreatedBy": {
+            "bsonType": "string"
+        },
+        "CreatedOn": {
+            "bsonType": "date"
+        },
+        "IsDeleted": {
+            "bsonType": "bool"
+        },
+        "PrivateKey": {
+            "bsonType": "string"
+        },
+        "PublicKey": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "string"
+        },
+        "UpdatedOn": {
+            "bsonType": "date"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "required": [
+        "_id"
+    ]
+}

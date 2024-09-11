@@ -1,0 +1,43 @@
+{
+    "title": "addressinfo",
+    "properties": {
+        "Cities": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "Name": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "CreatedBy": {
+            "bsonType": "string"
+        },
+        "CreatedOn": {
+            "bsonType": "date"
+        },
+        "DeletedBy": {
+            "bsonType": "string"
+        },
+        "IsDeleted": {
+            "bsonType": "bool"
+        },
+        "StateName": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "string"
+        },
+        "UpdatedOn": {
+            "bsonType": "date"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "required": [
+        "_id"
+    ]
+}

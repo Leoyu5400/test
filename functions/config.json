@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Function_0",
+        "private": false
+    },
+    {
+        "name": "resetPwd",
+        "private": true
+    },
+    {
+        "name": "createUser",
+        "private": true
+    }
+]

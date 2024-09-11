@@ -1,0 +1,50 @@
+{
+    "title": "menucategory",
+    "properties": {
+        "CategoryID": {
+            "bsonType": "string"
+        },
+        "CreatedBy": {
+            "bsonType": "string"
+        },
+        "CreatedOn": {
+            "bsonType": "date"
+        },
+        "DeletedBy": {
+            "bsonType": "string"
+        },
+        "DeletedOn": {
+            "bsonType": "date"
+        },
+        "IsDeleted": {
+            "bsonType": "bool"
+        },
+        "MenuDesc": {
+            "bsonType": "string"
+        },
+        "MenuIcon": {
+            "bsonType": "string"
+        },
+        "MenuName": {
+            "bsonType": "string"
+        },
+        "MerchantID": {
+            "bsonType": "string"
+        },
+        "Sequence": {
+            "bsonType": "int"
+        },
+        "UpdatedBy": {
+            "bsonType": "string"
+        },
+        "UpdatedOn": {
+            "bsonType": "date"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "required": [
+        "_id"
+    ]
+}

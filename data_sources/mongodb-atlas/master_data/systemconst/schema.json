@@ -1,0 +1,54 @@
+{
+    "title": "systemconst",
+    "properties": {
+        "CompanyCategories": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "CategoryCode": {
+                        "bsonType": "string"
+                    },
+                    "CategoryName": {
+                        "bsonType": "string"
+                    },
+                    "MerchantCategorys": {
+                        "bsonType": "array",
+                        "items": {
+                            "bsonType": "object",
+                            "properties": {
+                                "Code": {
+                                    "bsonType": "string"
+                                },
+                                "Name": {
+                                    "bsonType": "string"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "CreatedBy": {
+            "bsonType": "string"
+        },
+        "CreatedOn": {
+            "bsonType": "date"
+        },
+        "IsDeleted": {
+            "bsonType": "bool"
+        },
+        "UpdatedBy": {
+            "bsonType": "string"
+        },
+        "UpdatedOn": {
+            "bsonType": "date"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "required": [
+        "_id"
+    ]
+}

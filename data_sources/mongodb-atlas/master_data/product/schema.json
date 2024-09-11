@@ -1,0 +1,65 @@
+{
+    "title": "product",
+    "properties": {
+        "AvailableStock": {
+            "bsonType": "int"
+        },
+        "CategoryID": {
+            "bsonType": "string"
+        },
+        "CreatedBy": {
+            "bsonType": "string"
+        },
+        "CreatedOn": {
+            "bsonType": "date"
+        },
+        "DeletedBy": {
+            "bsonType": "string"
+        },
+        "DeletedOn": {
+            "bsonType": "date"
+        },
+        "DiscountedPrice": {
+            "bsonType": "string"
+        },
+        "IsDeleted": {
+            "bsonType": "bool"
+        },
+        "MerchantID": {
+            "bsonType": "string"
+        },
+        "ProductDescription": {
+            "bsonType": "string"
+        },
+        "ProductID": {
+            "bsonType": "string"
+        },
+        "ProductImage": {
+            "bsonType": "string"
+        },
+        "ProductName": {
+            "bsonType": "string"
+        },
+        "Status": {
+            "bsonType": "string"
+        },
+        "TotalStock": {
+            "bsonType": "int"
+        },
+        "UnitPrice": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "string"
+        },
+        "UpdatedOn": {
+            "bsonType": "date"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "required": [
+        "_id"
+    ]
+}
